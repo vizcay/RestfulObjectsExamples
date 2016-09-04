@@ -13,7 +13,7 @@ class Nodo
   end
 
   def nombre=(value)
-    @nombre = @title = value
+    @ro_title = @nombre = value
   end
 end
 
