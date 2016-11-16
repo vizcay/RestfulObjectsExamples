@@ -24,7 +24,7 @@ class Project
 
   def description=(value)
     raise 'max length exceeded (30)' if value and value.length > 30
-    @description = @title = value
+    @description = @ro_title = value
   end
 
   def completed_tasks
