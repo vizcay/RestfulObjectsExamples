@@ -7,7 +7,7 @@ GEM
       rack
     rack-test (0.6.3)
       rack (>= 1.0)
-    restful_objects (0.0.7)
+    restful_objects (0.0.8)
       sinatra (= 1.4.4)
     rspec (2.99.0)
       rspec-core (~> 2.99.0)
@@ -28,8 +28,8 @@ PLATFORMS
 
 DEPENDENCIES
   rack-test (= 0.6.3)
-  restful_objects (= 0.0.7)
+  restful_objects (= 0.0.8)
   rspec (~> 2.14)
 
 BUNDLED WITH
-   1.12.1
+   1.14.5
